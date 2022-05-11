@@ -9,5 +9,8 @@ package principal;
  * @author alunopb
  */
 public interface DrawApi {
+
     public void drawCircle(int radius, int x, int y);
+
+    public void drawSquare(int x);
 }

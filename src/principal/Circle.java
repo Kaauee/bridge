@@ -8,9 +8,9 @@ package principal;
  *
  * @author alunopb
  */
-public class Circle extends Shape{
-    
-    private int x,y,radius;
+public class Circle extends Shape {
+
+    private int x, y, radius;
 
     public Circle(int x, int y, int radius, DrawApi drawApi) {
         super(drawApi);
@@ -18,10 +18,10 @@ public class Circle extends Shape{
         this.y = y;
         this.radius = radius;
     }
-    
+
     @Override
     public void draw() {
-       drawApi.drawCircle(radius, x, y);
+        drawApi.drawCircle(radius, x, y);
     }
-    
+
 }
